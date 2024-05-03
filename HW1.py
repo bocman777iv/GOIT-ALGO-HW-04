@@ -21,9 +21,9 @@ data = [
     "Mishel' Corp,1600"
 ]
 
-with open("E:/GOIT-ALGO-HW-04/salary_file.txt", "w", encoding="utf-8") as file:
+with open("salary_file.txt", "w", encoding="utf-8") as file:
     for line in data:
         file.write(line + "\n")
 
-total, average = total_salary("E:/GOIT-ALGO-HW-04/salary_file.txt")
+total, average = total_salary("salary_file.txt")
 print(f"Общая сумма заработной платы: {total}, Средняя заработная плата: {average}")
