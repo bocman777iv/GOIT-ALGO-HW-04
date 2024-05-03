@@ -17,6 +17,6 @@ def get_cats_info(path):
     return cats_info
 
 
-cats_info = get_cats_info(r"E:\GOIT-ALGO-HW-04\HW2\cats_file.txt")
+cats_info = get_cats_info(r"cats_file.txt")
 
 print(cats_info)
